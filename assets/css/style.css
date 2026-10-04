@@ -1396,7 +1396,7 @@ ul.social-buttons li a:active {
   font-size: 18px;
   line-height: 1.25;
   padding-bottom: 14px;
-  border-bottom: 1px solid rgba(255,255,255,0.18);
+  /* border-bottom: 1px solid rgba(255,255,255,0.18); */
 }
 
 /* remove bullets FOR SURE (bootstrap + browser) */
@@ -1410,7 +1410,7 @@ ul.social-buttons li a:active {
 #skills .skills.flash-card .skill-list li{
   list-style: none !important;
   padding: 10px 0 10px 24px;
-  border-bottom: 1px solid rgba(255,255,255,0.10);
+  /* border-bottom: 1px solid rgba(255,255,255,0.10);  not here */
   position: relative;
 }
 
