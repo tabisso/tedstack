@@ -1,0 +1,28 @@
+/* Portfolio alignment fix */
+#portfolio .portfolio-item > a.portfolio-link{
+  display:block !important;
+  height:260px !important;
+  overflow:hidden !important;
+  max-width:none !important;  /* override template max-width */
+  margin:0 !important;        /* override margin:0 auto */
+}
+
+#portfolio .portfolio-item > a.portfolio-link > img{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  display:block !important;
+}
+
+#portfolio .portfolio-caption{
+  min-height:80px !important;
+}
+
+
+
+/* Remove the template border around portfolio items */
+@media (min-width: 768px) {
+  #portfolio .portfolio-item {
+    border: none !important;
+  }
+}
